@@ -62,7 +62,7 @@ resultBtn.addEventListener('click', function() {
                 outputField.appendChild(div)
                 //console.log(results)
             }
-        }, 6000)
+        }, 7000)
     }
 })
 
