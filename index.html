@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Irradiance Check</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="title">NSRDB Daily Irradiance</h1>
+            <h3 id="author">Aditya Wikara</h3>
+        </div>
+    </header>
+    <div class="main">
+        <section>
+            <div class="inputs-fields">
+                <div id="lat-container">
+                    <label for="Latitude">Latitude: </label>
+                    <input type="text" name="Latitude" id="Latitude" placeholder="42.3505">
+                </div>
+                <div id="long-container">
+                    <label for="Longitude">Longitude: </label>
+                    <input type="text" name="Longitude" id="Longitude" placeholder="-71.1054">
+                </div>
+            </div>
+            <div class="buttons-area">
+                <div><button id="resultBtn">Get Data</button></div>
+                <div><button id="refreshBtn"><img height="50" src="https://img.icons8.com/ios/50/000000/repeat.png"/></button></div>
+            </div>
+            <div class="instructions-area">
+                <h3>How To Use:</h3>
+                <p>1. Data is taken from NSRDB (National Solar Radiation Database) </p>
+                <p>2. Only US locations are available, any international coordinates will not work</p>
+                <p>3. After providing the correct inputs, press the get data button.</p>
+                <p>4. It takes 5-10 seconds for the backend to generate the solar radiation table</p>
+                <p>5. The table will present the hourly solar radiation data for the current day.</p>
+                <p>6. Click the refresh button to reset the table and the inputs.</p>
+            </div>
+        </section>
+        <section id="outputs">
+        </section>
+        <div class="loading">Loading&#8230;</div>
+    </div>
+    <footer>
+        <div class="about-links"><a target="_blank" href="https://www.linkedin.com/in/adwikara/"><img src="img/LI-Logo.png" alt="" height="30"></a></div>
+        <div class="about-links"><a target="_blank" href="https://github.com/adwikara"><img src="img/GitHub_Logo.png" alt="" height="30"></a></div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
