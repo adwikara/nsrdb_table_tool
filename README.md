@@ -1,4 +1,4 @@
-# irradiance_analyzer
+# NSRDB Irradiance Tool
 
 ## Overview
 This is a project which outputs the hourly solar irradiance (W/m2) data for the day given the latitude and longitude of the location. The data is taken from NREL's NSRDB (National Solar Radiation Databse). Therefore, only coordinates in the United States will work. The data is presented using a GUI using Electron.JS. To run the program, you will need node.
