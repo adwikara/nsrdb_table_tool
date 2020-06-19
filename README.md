@@ -9,12 +9,12 @@ This is a project which outputs the hourly solar irradiance (W/m2) data for the 
 ## Getting Started
 1. Clone the repository
 ```
-git clone https://github.com/adwikara/irradiance_analyzer
+git clone https://github.com/adwikara/nsrdb_table_tool
 
 ```
 2. Go to the directory
 ```
-cd irradiance_analyzer
+cd nsrdb_table_tool
 
 ```
 3. Install dependencies
